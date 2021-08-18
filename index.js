@@ -79,7 +79,7 @@ app.use(express.json());
 // Weather endpoint open to everyone
 
 app.get('/', (req, res) => {
-  res.send('Hello, World');
+  res.send('Hello, World please work');
 });
 
 app.get(`/api/weather/:zipCode`, (req, res) => {
